@@ -1,0 +1,48 @@
+.Imagem1 {
+    width: 51px;
+    height: 60px;
+  
+    
+}
+
+.pri {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.seg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+.cabecalho {
+    background-color: #6278F7;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 800px;
+    align-items: center;
+   
+    padding: 20px;
+}
+
+.p1 {
+    font: 700 20px roboto;
+    color: #f6f5fa;
+    margin: 0px 0px 0px 25px ;
+}
+
+.inicio {
+    font: 700 20px roboto;
+    color: #f6f5fa;
+    
+    
+}
+
+.sobre {
+    font: 700 20px roboto;
+    color: #f6f5fa;
+    
+}
