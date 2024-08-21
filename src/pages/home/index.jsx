@@ -6,7 +6,7 @@ export default function Home () {
         <div className="mae">
             <div className="cabecalho">
                 <div className="pri">
-                    <img  className= " Imagem1"src="/assets/image/img.frei.png" alt="" />
+                    <img src="/assets/image/img.frei.png" alt="" />
                 
                     <h1 className='p1'> React FreiS </h1>
                 </div>
@@ -21,14 +21,17 @@ export default function Home () {
 
                 <h1 className='treino'> Escolha um treino...</h1>
 
-            <div className="contener">
-            
+        <div className="contener">
+
+            <Link to= '/exe01'>
                 <div className='divprinc'>
                     <div className='divcubo'></div>
                     <h1> Cupom de desconto </h1>
                     < p> Exercício 01</p>
                    
                 </div>
+            </Link>
+
                 <div className='divprinc'>
                     <div className='divcubo1'></div>
                     <h1>Converter Kg/gramas </h1>

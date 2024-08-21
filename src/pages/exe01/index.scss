@@ -1,4 +1,4 @@
-.sobre {
+.exe01{
     .cabecalho {
         background-color: #6278F7;
         display: flex;
@@ -49,29 +49,4 @@
         }
     }
 
-    #titulo{
-        font: 700 26px roboto;
-        color: #383131;
-        margin: 40px 0px 20px 70px;
-    }
-
-    .o {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 25px;
-
-        p {
-            font: 400 26px roboto;
-            margin: 0px 70px 0px 70px;
-            width: 950px;
-
-        }
-
-        img {
-            height: 100px;
-        }
-    }
 }

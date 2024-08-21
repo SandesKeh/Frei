@@ -1,26 +1,12 @@
-body {
+.mae {
     background-color: #F5F6FA;
-}
 
-.Imagem1 {
-    width: 51px;
-    height: 60px;
-  
-    
-}
+    a{
+        text-decoration: none;
+    }
 
-.pri {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
-.seg {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 15px;
-}
+
 .cabecalho {
     background-color: #6278F7;
     display: flex;
@@ -30,26 +16,48 @@ body {
     align-items: center;
    
     padding: 20px;
+
+    .pri{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        img{
+            width: 51px;
+            height: 60px;
+          
+            
+        }
+    }
+
+    .seg {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .p1 {
+        font: 700 20px roboto;
+        color: #f6f5fa;
+        margin: 0px 0px 0px 25px ;
+    }
+    
+    .inicio {
+        font: 700 20px roboto;
+        color: #f6f5fa;
+        
+        
+    }
+    
+    .sobre {
+        font: 700 20px roboto;
+        color: #f6f5fa;
+        
+    }
 }
 
-.p1 {
-    font: 700 20px roboto;
-    color: #f6f5fa;
-    margin: 0px 0px 0px 25px ;
-}
 
-.inicio {
-    font: 700 20px roboto;
-    color: #f6f5fa;
-    
-    
-}
-
-.sobre {
-    font: 700 20px roboto;
-    color: #f6f5fa;
-    
-}
 
 .treino {
     font: 700 26px roboto;
@@ -68,13 +76,20 @@ body {
     align-items: center;
     gap: 15px;
     border-radius: 10px;
+    
+    h1 {
+        font: 700 14px roboto;
+       color: #383131;
+        
+    }
+
+    p {
+        font: 400 14px roboto;
+        color: #383131;
+     
+    }
 }
 
-.divprinc h1 {
-    font: 700 14px roboto;
-   
-    
-}
 .divcubo {
     background-color: #FFCE37;
     width: 60px;
@@ -82,10 +97,6 @@ body {
     border-radius: 10px;
 }
 
-.divprinc p {
-    font: 400 14px roboto;
- 
-}
 .contener{
     display: flex;
     flex-direction: row;
@@ -164,4 +175,5 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 10px;
+}
 }
