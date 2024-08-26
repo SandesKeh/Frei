@@ -1,52 +1,15 @@
 .exe01{
-    .cabecalho {
-        background-color: #6278F7;
+    .session-01{
         display: flex;
-        justify-content: center;
         flex-direction: row;
-        gap: 800px;
-        align-items: center;
-       
-        padding: 20px;
-    
-        .pri{
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-    
-            img{
-                width: 51px;
-                height: 60px;
-              
-                
-            }
-        }
-    
-        .seg {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            gap: 15px;
-        }
+        justify-content: center;
+        width: 100%;
+        background-color: #F5F6FA;
+        height: 100vh;
 
-        .p1 {
-            font: 700 20px roboto;
-            color: #f6f5fa;
-            margin: 0px 0px 0px 25px ;
-        }
-        
-        .inicio {
-            font: 700 20px roboto;
-            color: #f6f5fa;
-            
-            
-        }
-        
-        .sobre {
-            font: 700 20px roboto;
-            color: #f6f5fa;
-            
-        }
     }
+
+
+
 
 }

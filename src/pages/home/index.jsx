@@ -1,25 +1,14 @@
+import Cabecalho from '../../components/cabecalho';
 import './index.scss' ;
 import { Link } from 'react-router-dom';
 
 export default function Home () {
     return (
         <div className="mae">
-            <div className="cabecalho">
-                <div className="pri">
-                    <img src="/assets/image/img.frei.png" alt="" />
-                
-                    <h1 className='p1'> React FreiS </h1>
-                </div>
+          
+          <Cabecalho/>
 
-                <div className="seg">
-                    <h1 className="inicio"> Inicio </h1>
-                    <Link to='/sobre'>
-                        <h1 className="sobre"> Sobre </h1>
-                    </Link>
-                </div>
-            </div>
-
-                <h1 className='treino'> Escolha um treino...</h1>
+            <h1 className='treino'> Escolha um treino...</h1>
 
         <div className="contener">
 
